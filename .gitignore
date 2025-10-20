@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# IDE/OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Runtime/outputs
+.gradio/
+logs/
+*.log
+media/
+datasets/
+
+# ML artifacts (use Git LFS instead)
+models/
+checkpoints/
+*.onnx
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.zip
+
+# Large image sets (add via LFS or Releases)
+id_reference_images/
